@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora SPA</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    
+    <!-- CSS stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/project-style.css">
+    
+    <!-- Font awesome take kit with JS-->
+    <script src="https://kit.fontawesome.com/edde9bbf29.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar Section-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">AURORA SPA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="project-index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="body.html">Уход для тела</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="make-up.html">Уход для лица</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hair.html">Уход для волос</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+            </section>
+<br>
+
+<video autoplay muted loop id="myVideo" playsinline>
+    <source src="img/Massage.mp4" type="video/mp4">
+</video>
+<br>
+<!-- Carousel Section-->
+<section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Ощутите целебную нирвану наших спа-процедур и ритуалов для двоих</h2>
+                <img class="testimonial-image" src="img/Massage2.jpg" alt="Massage2">
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">Получите королевское удовольствие от спа-процедур с применением трав</h2>
+                <img class="testimonial-image" src="img/Herbal1.jpg" alt="Herbal1">
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">Позвольте себе роскошь преображения с использованием процедур релаксации</h2>
+                <img class="testimonial-image" src="img/Facelift.jpg" alt="Facelift">
+            </div>
+        </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+    </div>
+
+    <!-- Features Section
+      1)to increase icons we add fa-4x to icons
+      2) apply the same custom classes to icons -->
+<section id="features">
+    <div class="row">
+        <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-spa fa-4x"></i>
+            <h3>Гарантия расслабления</h3>
+            <p>У нас есть все необходимые процедуры</p>
+        </div>
+        <div class="feature-box col-lg-4">
+            <i class="icon fa-sharp fa-solid fa-bullseye fa-4x"></i>
+            <h3>Лучшие мастера</h3>
+            <p>Наша команда найдет индивидуальный подход</p>
+        </div>
+        <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-heart fa-4x"></i>
+
+            <h3>Мы ценим своих клиентов</h3>
+            <p>Только профессиональные и традиционные средства</p>
+        </div>
+    </div>
+</section>
+<br>
+<!-- Gift voucher Section -->
+<section id="gift">
+    <div class="gift-text">
+        <h2>Условия подарочных сертификатов</h2>
+    </div>
+
+    <div class="gift-box">
+    <div class="gift-image">
+        <img src="img/gift.jpg" alt="gift">
+    </div>
+    <div class="gift-conditions">
+    <h2>Стоимость</h2>
+    <div class="gift-block">
+        <div class="gift-icon"><ion-icon name="server-outline"></ion-icon></div>
+        <div class="gift-description">Сертификат может быть выписан на любую сумму.</div>
+    </div>
+
+    <h2>Услуги</h2>
+    <div class="gift-block">
+        <div class="gift-icon"><ion-icon name="diamond-outline"></ion-icon></div>
+        <div class="gift-description">По сертификату доступны любые услуги Avrora SPA.</div>
+    </div>
+
+    <h2>Удобство</h2>
+    <div class="gift-block">
+        <div class="gift-icon"><ion-icon name="document-text-outline"></ion-icon></div>
+        <div class="gift-description">Сертификат не требует распечатки. Получите сертификат на почту или WhatsApp и предъявите на входе.</div>
+    </div>
+    <br>
+    <div class="gift-btn">
+        <button class="gift-cta">Заказать</button>
+    </div>
+</div>
+
+</section>
+<!-- Footer Section-->
+<section id="footer">
+<div class="footer-text">
+    <h4>Контакты</h4>
+    <h1>Обратная связь</h1>
+</div>
+<div class="footer">
+    <div class="footer-left">
+        <h2>График работы</h2>
+        <p><i class="fas fa-clock"></i> Понедельник - Пятница: 11:00 - 22:00</p>
+        <p><i class="fas fa-clock"></i> Суббота - Воскресенье: 9:00 - 00:00</p>
+    </div>
+    <div class="footer-right">
+        <h2>Контакты</h2>
+    <p><i class="fas fa-search-location"></i> ул. Сатпаева 90/38 блок 1</p>
+        <p><i class="fas fa-envelope-open"></i> saftyak@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +7 700 767 6190</p>
+</div>
+</div>
+<div class="social-links">
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-whatsapp-square"></i>
+    <i class="fab fa-telegram"></i>
+</div>
+</section>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -3,4 +3,4 @@
 * CSS 3 
 + Bootstrap 5
 
-Would you please visit [my website]([saftya.github.io/Saftya-Beauty-SPA/](https://saftya.github.io/Saftya-Beauty-SPA/))
+Would you please visit [my website](https://saftya.github.io/Saftya-Beauty-SPA/)

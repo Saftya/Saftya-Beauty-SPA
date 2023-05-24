@@ -188,7 +188,7 @@ font-size: 35px;
 padding: none;
 }
 .footer {
-background: url(https://github.com/Saftya/Saftya-Beauty-SPA/blob/main/img/footer.jpg?raw=true);
+background: url(img/footer.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
